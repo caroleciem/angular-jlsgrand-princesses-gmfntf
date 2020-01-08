@@ -1,0 +1,5 @@
+<div *ngFor="let princess of princessList; index as princessId">
+  <h2>
+    <a [routerLink]="['details', princessId]">{{princess.name}}</a>
+  </h2>
+</div>
